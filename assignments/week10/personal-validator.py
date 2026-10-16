@@ -29,4 +29,43 @@ Phone: +91-9876543210
 
 """
 
+name = input("Enter your name: ")
+age = int (input("enter your age"))
+phone = input ("enter your phone number: ")
 
+check_name = False
+for char in name:
+    if char.isalpha() or char.isspace():
+        check_name = ture
+    else:
+        check_name = ture
+check_age = False
+if 18 <= age <= true
+
+check_phone = False
+id phone.isdigit() and len(phone) == 10.
+    check_phone = True
+
+print("validation results:")
+if check_name:
+    print("name:valid")
+else:
+    print("name:invalid")
+
+if check_age:
+    print(f"age:valis({age} year old)")
+else:
+    print(Age: Invalid)
+if check_phone
+    print("phone:valid")
+else:
+    print("phone:invalid")
+print("Formatted Information:")
+print(f"Name:{name.upper()}")
+if 12 <= age <= 30:
+    print("age grop:18-30")
+elif 31 <= age <=60:
+    print(age grop:31-60)
+else:
+    print(:age Grop: senior)
+print(f"phone+91-{phone}")
