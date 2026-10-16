@@ -10,11 +10,17 @@ print("My name is Your Name")
 # Write three print statements that display:
 # Line 1: Your name
 # Line 2: Your age
+<<<<<<< HEAD
 # Line 3: Your favorite hobby
 # Write your code here:
 print("Heart")
 print("20")
 print("game")
+=======
+# Line 3: Your favorite hobbyๅ
+# Write your code here:
+
+>>>>>>> upstream/main
 
 # Exercise 4: Print with Different Content
 # Use print() to display the following (one per line):
@@ -23,9 +29,13 @@ print("game")
 # - A sentence with spaces
 
 # Write your code here:
+<<<<<<< HEAD
 print("22")
 print("Hello")
 print("hello ggwp")
+=======
+
+>>>>>>> upstream/main
 
 
 # Exercise 5: Understanding Print Behavior

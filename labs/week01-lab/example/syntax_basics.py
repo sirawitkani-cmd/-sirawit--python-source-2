@@ -23,7 +23,11 @@ my_integer = 42
 my_float = 3.14
 my_boolean = False
 
+<<<<<<< HEAD
 # Use type() to see the data type type= ถามประเภทข้อมูลหรือเช็คข้อมูล
+=======
+# Use type() to see the data type
+>>>>>>> upstream/main
 print("Type of my_string:", type(my_string))
 print("Type of my_integer:", type(my_integer))
 print("Type of my_float:", type(my_float))
@@ -33,11 +37,19 @@ print("Type of my_boolean:", type(my_boolean))
 first_name = "John"
 last_name = "Doe"
 
+<<<<<<< HEAD
 # Concatenate strings /" " เว้นวรรค
 full_name = first_name + " " + last_name
 print("Full name:", full_name)
 
 # String length / len = นับจำนวน
+=======
+# Concatenate strings
+full_name = first_name + " " + last_name
+print("Full name:", full_name)
+
+# String length
+>>>>>>> upstream/main
 print("Length of full name:", len(full_name))
 
 # Exercise 4: Numbers and Arithmetic
@@ -49,7 +61,11 @@ print("Addition:", num1 + num2)
 print("Subtraction:", num1 - num2)
 print("Multiplication:", num1 * num2)
 print("Division:", num1 / num2)
+<<<<<<< HEAD
 print("Integer Division:", num1 // num2) # หารไม่เอา3.333เอาแค่ 3
+=======
+print("Integer Division:", num1 // num2)
+>>>>>>> upstream/main
 print("Remainder (Modulo):", num1 % num2)
 print("Power:", num1 ** num2)
 
@@ -77,6 +93,7 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
+<<<<<<< HEAD
 favorite_color = "blue"
 
 # Integer variable with the current year
@@ -87,6 +104,18 @@ favorite_number = "22"
 
 # Boolean variable indicating if you like pizza
 likes_pizza = False
+=======
+favorite_color = 
+
+# Integer variable with the current year
+current_year = 
+
+# Float variable with your favorite number (with decimal)
+favorite_number = 
+
+# Boolean variable indicating if you like pizza
+likes_pizza = 
+>>>>>>> upstream/main
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)

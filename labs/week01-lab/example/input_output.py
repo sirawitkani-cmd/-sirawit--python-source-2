@@ -12,7 +12,11 @@ age_string = input("How old are you? ")
 age = int(age_string)  # Convert string to integer
 print("You are", age, "years old")
 print("Next year you will be", age + 1, "years old")
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> upstream/main
 # Exercise 3: Multiple Inputs
 print("\n=== Exercise 3: Multiple Inputs ===")
 first_name = input("Enter your first name: ")
@@ -115,4 +119,8 @@ print(celsius, "degrees Celsius is", fahrenheit, "degrees Fahrenheit")
 length = float(input("Enter rectangle length: "))
 width = float(input("Enter rectangle width: "))
 area = length * width
+<<<<<<< HEAD
 print("The area of a rectangle with length", length, "and width", width, "is", area)
+=======
+print("The area of a rectangle with length", length, "and width", width, "is", area)
+>>>>>>> upstream/main

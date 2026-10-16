@@ -37,7 +37,11 @@ class BankAccount:
         else:
             return "No transactions yet"
 
+<<<<<<< HEAD
 # Example usage การสร้างวัตถุจากคลาส
+=======
+# Example usage
+>>>>>>> upstream/main
 account = BankAccount("John Doe", 1000)
 print(account.get_balance())
 print(account.deposit(500))

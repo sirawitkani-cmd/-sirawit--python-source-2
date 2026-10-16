@@ -9,7 +9,11 @@ print("=" * 50)
 a = 15
 b = 4
 
+<<<<<<< HEAD
 print(f"a = {a}, b = {b}") #print ข้อความกับตัวแปร f = for math
+=======
+print(f"a = {a}, b = {b}")
+>>>>>>> upstream/main
 print()
 
 # Addition (+)
@@ -33,10 +37,17 @@ result_floor = a // b
 print(f"Floor Division: {a} // {b} = {result_floor}")
 
 # Modulo (%)
+<<<<<<< HEAD
 result_mod = a % b #หาเอาเศษ
 print(f"Modulo:         {a} % {b} = {result_mod}")
 
 # Exponentiation (**) #ยกกำลัง
+=======
+result_mod = a % b
+print(f"Modulo:         {a} % {b} = {result_mod}")
+
+# Exponentiation (**)
+>>>>>>> upstream/main
 result_exp = a ** b
 print(f"Exponentiation: {a} ** {b} = {result_exp}")
 

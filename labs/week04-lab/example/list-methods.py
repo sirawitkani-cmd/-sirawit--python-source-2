@@ -8,8 +8,13 @@ print(f"Count of 1: {numbers.count(1)}")   # 2
 print(f"Count of apple: {fruits.count('apple')}")  # 2
 
 # Finding elements
+<<<<<<< HEAD
 print(f"Index of 4: {numbers.index(4)}")   # 2 ข้อมูล number อยู่ที่ index 4
 print(f"Index of banana: {fruits.index('banana')}")  # 1 ข้อมูล fruits อยู่ที่ index 1
+=======
+print(f"Index of 4: {numbers.index(4)}")   # 2
+print(f"Index of banana: {fruits.index('banana')}")  # 1
+>>>>>>> upstream/main
 
 # Sorting
 numbers_copy = numbers.copy()
@@ -31,7 +36,11 @@ print(f"Reversed fruits: {fruits}")        # ['orange', 'apple', 'banana', 'appl
 # Min, max, sum (for numeric lists)
 print(f"Min: {min(numbers)}")              # 1
 print(f"Max: {max(numbers)}")              # 9
+<<<<<<< HEAD
 print(f"Sum: {sum(numbers)}")              # 36
 
 #แล้วค่าเฉลี่ยล่ะ number = [3, 1, 4, 1, 5, 9, 2, 6, 5]
 average =
+=======
+print(f"Sum: {sum(numbers)}")              # 36
+>>>>>>> upstream/main
